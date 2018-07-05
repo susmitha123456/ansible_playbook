@@ -1,3 +1,2 @@
 [Dev]
-dev1 ansible_ssh_host=18.222.149.23 ansible_ssh_user=root
-dev2 ansible_ssh_host=52.14.58.26 ansible_ssh_user=root
+dev1 ansible_ssh_host=18.216.171.213 ansible_ssh_user=root
