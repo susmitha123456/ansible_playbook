@@ -2,6 +2,8 @@
 - hosts: Dev
   gather_facts: no
   tasks:
+    - name: Install Java
+      shell: yum install java-1.8.0-openjdk
     - name: Checking the directory
       stat:
         path: /tmp/gamefolder
