@@ -20,10 +20,10 @@
 
     - name: copy war file 
       copy: 
-        src: "{{ work }}/greenhouse-1.0.0.war"
-        dest: "/tmp/gamefolder/greenhouse-1.0.0.war"
+        src: "{{ work }}/gameoflife-0.0.1.war"
+        dest: "/tmp/gamefolder/gameoflife-0.0.1.war"
         mode: 0777
 
     - name: executing war
-      shell: "cd /tmp/gamefolder/; nohup java -jar greenhouse-1.0.0.war &"
+      shell: "cd /tmp/gamefolder/; nohup java -jar gameoflife-0.0.1.war &"
       become: true
